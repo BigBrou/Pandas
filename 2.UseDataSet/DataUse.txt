@@ -1,0 +1,21 @@
+2_1. 데이터 집합 불러오기
+  - Pandas 의 구성
+    - series 
+      = 1차원적 열 한개를 의미
+    - dataframe
+      = series가 여러 개 구성되어 있는 sheet 역할
+  
+  - Pandas 의 자료형
+    - object (python string과 같은 역할)
+    - int64
+    - float64
+    - datetime64
+
+
+2_2. 데이터 추출하기
+  - 열 단위 데이터 추출
+    - 열 한 줄 추출
+        ex) new_df = df['column'] 
+    - 열 여러개 추출
+      = 컬럼리스트를 만들어 추출
+        ex) new_df = df[['column1', 'column2', 'column3']]
